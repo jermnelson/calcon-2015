@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+  <title>CALCON 2015: Introducing BIBCAT - a BIBFRAME Catalog</title>
+  <meta name="description" content="Presentation by Jeremy Nelson for CALCON 2015 in Loveland, CO">
+  <meta name="author" content="Jeremy Nelson">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT  -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS  -->
+
+  <link rel="stylesheet" href="{{ url_for('static', filename="css/normalize.css") }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename="css/skeleton.css") }}">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename="images/favicon.png") }}">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout -->
+  <div class="container">
+    <div class="row">
+      <div class="one-half column" style="margin-top: 25%">
+        <h1>CALCON 2015</h1>
+        <h2>Introducing BIBCAT - a BIBFRAME Catalog</h2>
+        <h4>Jeremy Nelson<br>Metadata and Systems Librarian<br>Colorado College</h4>
+        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+      </div>
+      <section class="one-half column" style="margin-top: 15%">
+        <img src="{{ url_for('static', filename='images/calcon_logo-01.jpg') }}"> 
+      </section>
+    </div>
+    {% include 'pages/introduction.html' %}
+    <br>
+    {% include 'pages/bibframe.html' %}
+    <br>
+    {% include 'pages/cpp.html' %}
+    <br>
+    {% include 'pages/bibcat.html' %}
+    <br>
+    {% include 'pages/cc-tiger-website.html' %}
+    <br>
+  </div>
+
+<!-- End Document  -->
+  </body>
+</html>
