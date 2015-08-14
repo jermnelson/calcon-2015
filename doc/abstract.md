@@ -56,9 +56,6 @@ down to bare functionality as envisioned by Tennent and Cmor, have real
 and significant costs that are borne by library staff and administration
 when trying to accomplish their workflow in the library.
 
-## BIBFRAME - Library of Congress's MARC21 Replacement
-
-
 ## Simplifying and De-coupling Library Technology
 
 Inspired by John Hegel III's and John Seely Brown's early conception a
@@ -80,8 +77,25 @@ triples for Tutt Library's creative works. To maximize utility and
 leverage the wide adoption of JSON, JSON linked data representations of
 these creative works are published and consumed between the front-end
 web applications, Fedora, and Elastic Search using JSON-LD
-serializations from Fedora, represented in the above graph as
-bi-directional maroon arrows.
+serializations from Fedora.
+
+## BIBFRAME - Library of Congress's MARC21 Replacement
+BIBFRAME, short for Bibliographic Framework Initiative, refers to both 
+the vocabulary as well as the communities and organizations that 
+understand the importance of bibliographic data to libraries and other 
+cultural heritage institutions. BIBFRAME as described from the Library 
+of Congress website, is
+
+    Initiated by the Library of Congress, BIBFRAME provides a foundation 
+    for the future of bibliographic description, both on the web, and in 
+    the broader networked world…In addition to being a replacement for MARC, 
+    BIBFRAME serves as a general model for expressing and connecting 
+    bibliographic data. A major focus of the initiative will be to determine 
+    a transition path for the MARC 21 formats while preserving a robust 
+    data exchange that has supported resource sharing and cataloging cost 
+    savings in recent decades.  
+
+As one of the first adopters, Jeremy Nelson 
 
 ## BIBCAT and the Catalog Pull Platform
 
@@ -89,3 +103,5 @@ bi-directional maroon arrows.
 
 
 ## References
+
+http://www.loc.gov/bibframe/
