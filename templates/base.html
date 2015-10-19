@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+  {% set author="Jeremy Nelson" %}
+  {% set title="CALCON 2015: Introducing BIBCAT - a BIBFRAME Catalog"  %}
+  {% set description="Presentation by Jeremy Nelson for CALCON 2015 in Loveland, CO on Library Linked Data with BIBCAT" %}
+  {% set pub_date="2015-10-22" %}
   <meta charset="utf-8">
-  <title>CALCON 2015: Introducing BIBCAT - a BIBFRAME Catalog</title>
-  <meta name="description" content="Presentation by Jeremy Nelson for CALCON 2015 in Loveland, CO">
-  <meta name="author" content="Jeremy Nelson">
-
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+  <meta name="author" content="{{ author }}">
+  <meta name="citation_author" content="{{ author }}">
+  <meta name="citation_title" content="{{ title }}">
+  <meta name="citation_publication_date" content="{{ pub_date }}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <script async defer src="//hypothes.is/embed.js"></script> 
   <!-- FONT  -->
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
