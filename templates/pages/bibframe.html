@@ -4,6 +4,10 @@
     padding: .5em;
   }
 
+  .bibframe a {
+    color: rgb(255,255,255);
+  }
+
 </style>
 <div class="bibframe">
  <div class="row">
@@ -18,12 +22,47 @@
  <div class="row">
    <section class="six columns">
     <h3>What is Linked Data?</h3>
+    <p>Linked Data is about representing information in statements called RDF Triples i.e. subject-predicate-object. 
+     Libraries standards are shifting to Linked-Data vocabularies like <a href="http://bibframe.org/">BIBFRAME</a>, 
+     <a href="https://github.com/mixterj/VRA-RDF-Project">RDF-VRA</a>, 
+     <a href="http://www.loc.gov/standards/mods/modsrdf/">MODS RDF</a>, and 
+     <a href="http://schema.org">Schema.org.</a>.</p>
+    <p>With a modern linked-data based vocabularies, a library system should be able to use
+    any vocabulary that is needed to solve a problem or issue. We should be able to "mix-and-match"
+    the elements we need to properly describe our resources for ours and or patron's needs.
    </section>
    <section class="six columns">
     <h3>What is a triple?</h3>
+    <p>A triple is a simple statement that links a subject through a relationship called a predicate, to 
+     a third object. Any of these three elements - subject, predicate, or object - can be an IRL (International
+     Resource Identifier) most commonly an uniform research locator or URL. This flexibility of allowing an IRI
+     to have any of these three roles allows common data to be shared with others (the "linking" of linked 
+     data) while also offering institutions the opportunity to customize and capture information and data important
+     to them.
+     </p>
+   </section>
+</div>
+<div class="row">
+  <section class="four columns">
     <h4>Subjects</h4>
-    <h4 class="u-pull-right">Predicates</h4>
-
+    <p>A subject is either an IRI or a Blank Node. A Blank Node is just a unique identifier
+       local to a particular graph and is not universal ID</p>
+  </section>
+  <section class="eight columns">
+    <pre>
+    <code>
+http://id.loc.gov/authorities/names/n79032879 
+https://en.wikipedia.org/wiki/Into_the_Wild_%28book%29
+    </code>
+    </pre>
+ </section>
+</div>
+<div class="row">
+  <section class="four columns">
+    <h4>Predicates</h4>
+  </section>
+  <section class="four columns">
+    <h4>Objects</h4>
    </section>
 
  </div>
