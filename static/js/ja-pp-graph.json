@@ -1,0 +1,26 @@
+[
+  {
+    "@id": "http://www.worldcat.org/oclc/32050898",
+    "http://bibframe.org/Title": [
+      {
+        "@value": "Pride and Prejudice"
+      }
+    ],
+    "http://bibframe.org/creator": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Jane_Austen"
+      }
+    ]
+  },
+  {
+    "@id": "https://en.wikipedia.org/wiki/Jane_Austen",
+    "@type": [
+      "https://schema.org/Person"
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://viaf.org/viaf/102333412"
+      }
+    ]
+  }
+]
