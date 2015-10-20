@@ -18,7 +18,7 @@
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
   <!-- CSS  -->
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ url_for('static', filename="css/normalize.css") }}">
   <link rel="stylesheet" href="{{ url_for('static', filename="css/skeleton.css") }}">
 
@@ -53,8 +53,10 @@
       </div>
       <section class="one-half column" style="margin-top: 5%">
         <img src="{{ url_for('static', filename='images/calcon_logo-01.jpg') }}"> 
-        <p>Annotate and share your thoughts on this resource by commenting 
-           using <a href="https://hypothes.is/">hypoth.is</a> service.</p>
+       <img src="{{ url_for('static', filename='images/comments.png') }}" class="u-pull-left">
+       <p>Annotate and share your thoughts on this presentation by commenting 
+          using <a href="https://hypothes.is/">hypoth.is</a> service.</p>
+ 
       </section>
     </div>
     {% include 'pages/introduction.html' %}

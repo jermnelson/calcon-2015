@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="640"
+   height="300"
+   id="svg6022"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="New document 28">
+  <defs
+     id="defs6024" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.77472527"
+     inkscape:cx="320"
+     inkscape:cy="266.59774"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:window-width="824"
+     inkscape:window-height="642"
+     inkscape:window-x="173"
+     inkscape:window-y="153"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata6027">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(0,-180)">
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Hack;-inkscape-font-specification:Sans"
+       x="7.7446828"
+       y="211.51773"
+       id="text6030"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6032"
+         x="7.7446828"
+         y="211.51773">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="7.7446828"
+         y="229.01773"
+         id="tspan6034">&lt;rdf:RDF</tspan><tspan
+         sodipodi:role="line"
+         x="7.7446828"
+         y="246.51773"
+         id="tspan6036">   xmlns:bf=&quot;http://bibframe.org/&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="7.7446828"
+         y="264.01773"
+         id="tspan6038">   xmlns:owl=&quot;http://www.w3.org/2002/07/owl#&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="7.7446828"
+         y="281.51773"
+         id="tspan6040">   xmlns:rdf=&quot;http://www.w3.org/1999/02/22-rdf-syntax-ns#&quot;</tspan><tspan
+         sodipodi:role="line"
+         x="7.7446828"
+         y="299.01773"
+         id="tspan6042">&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="7.7446828"
+         y="316.51773"
+         id="tspan6044">  &lt;rdf:Description rdf:about=&quot;https://en.wikipedia.org/wiki/Jane_Austen&quot;&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="7.7446828"
+         y="334.01773"
+         id="tspan6046">    &lt;owl:sameAs rdf:resource=&quot;http://viaf.org/viaf/102333412&quot;/&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="7.7446828"
+         y="351.51773"
+         id="tspan6048">    &lt;rdf:type rdf:resource=&quot;https://schema.org/Person&quot;/&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="7.7446828"
+         y="369.01773"
+         id="tspan6050">  &lt;/rdf:Description&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="7.7446828"
+         y="386.51773"
+         id="tspan6052">  &lt;rdf:Description rdf:about=&quot;http://www.worldcat.org/oclc/32050898&quot;&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="7.7446828"
+         y="404.01773"
+         id="tspan6054">    &lt;bf:creator rdf:resource=&quot;https://en.wikipedia.org/wiki/Jane_Austen&quot;/&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="7.7446828"
+         y="421.51773"
+         id="tspan6056">    &lt;bf:Title&gt;Pride and Prejudice&lt;/bf:Title&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="7.7446828"
+         y="439.01773"
+         id="tspan6058">  &lt;/rdf:Description&gt;</tspan><tspan
+         sodipodi:role="line"
+         x="7.7446828"
+         y="456.51773"
+         id="tspan6060">&lt;/rdf:RDF&gt;</tspan></text>
+  </g>
+</svg>

@@ -1,9 +1,19 @@
 <style>
+  
+  th.bibframe {
+     text-align: center;
+   }
+
   .bibframe {
     background-color: rgb(195, 224, 178);
     padding: .5em;
   }
+  .iri {
+    color: blue; 
+    font-family: hack, fixed;
+    font-size: .9em
 
+  }
   
 </style>
 <div class="bibframe">
@@ -60,7 +70,7 @@ https://en.wikipedia.org/wiki/Into_the_Wild_%28book%29
     <code>
 http://www.w3.org/1999/02/22-rdf-syntax-ns#type
 https://schema.org/MusicGroup
-http://knowledgelink.io/About
+http://knowledgelinks.io/About
     </code>
     </pre>
   </section>
@@ -85,6 +95,103 @@ _:N813d1368392f49539cfdb3a77c86c85f
     </code>
     </pre>
   </section>
-
+ </div>
+ <hr>
+ <div class="row">
+   <section class="six columns">
+     <img src="{{ url_for('static', filename='images/rdf-graph.png' ) }}" 
+      class="u-pull-left">
+     <h2>RDF Graphs</h2>
+   </section>
+   <section class="four columns">
+     <p>An RDF Graph is a collection of subject-predicate-object triples. Below is an
+     example of a simple RDF graph that you may have in your next library catalog for
+     the author <em>Jane Austen</em> and her book <em>Pride and Prejudice</em>.</p>
+   </section>
+ </div>
+ <img src="{{ url_for('static', filename="images/jane-austen-pride-prejudice-graph.svg") }}">
+ <table >
+  <thead>
+   <tr>
+    <th class="bibframe">Subject</th>
+    <th class="bibframe">Predicate</th>
+    <th class="bibframe">Object</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td><a class="iri" 
+           href="https://en.wikipedia.org/wiki/Jane_Austen">https://en.wikipedia.org/wiki/Jane_Austen</a></td>
+    <td><a class="iri"
+           href="http://www.w3.org/1999/02/22-rdf-syntax-ns#type">http://www.w3.org/1999/02/22-rdf-syntax-ns#type</a></td>
+    <td><a class="iri"
+           href="https://schema.org/Person">https://schema.org/Person</a></td>
+   </tr>
+   <tr>
+    <td><a class="iri"
+           href="https://en.wikipedia.org/wiki/Jane_Austen">https://en.wikipedia.org/wiki/Jane_Austen</a></td>
+    <td><a class="iri"
+           href="http://www.w3.org/2002/07/owl#sameAs">http://www.w3.org/2002/07/owl#sameAs</a></td>
+    <td><a class="iri"
+           href="http://viaf.org/viaf/102333412">http://viaf.org/viaf/102333412</a></td>
+   </tr>
+   <tr>
+    <td><a class="iri"
+           href="http://www.worldcat.org/oclc/32050898">http://www.worldcat.org/oclc/32050898</a></td>
+    <td><a class="iri"
+           href="http://bibframe.org/Title">http://bibframe.org/Title</a></td>
+    <td>"Pride and Prejudice"</td>
+   </tr>
+   <tr>
+    <td><a class="iri"
+           href="http://www.worldcat.org/oclc/32050898">http://www.worldcat.org/oclc/32050898</a></td>
+    <td><a class="iri"
+           href="http://bibframe.org/creator">http://bibframe.org/creator</a></td>
+    <td><a class="iri"
+           href="https://en.wikipedia.org/wiki/Jane_Austen">https://en.wikipedia.org/wiki/Jane_Austen</a></td>
+   </tr>
+  </tbody> 
+ </table>
+ <h2>RDF Graph Displays</h2>
+ <div class="row">
+   <section class="twelve columns">
+    <h3>RDF XML</h3>
+    <img src="{{ url_for('static', filename="images/jane-austen-pp-rdf.svg") }}" style="background-color: white">
+   </section>
+ </div>
+ <div class="row">
+   <section class="nine columns">
+    <h3>JSON-LD</h3>
+    <pre>
+    <code>
+[
+  {
+    "@id": "http://www.worldcat.org/oclc/32050898",
+    "http://bibframe.org/Title": [
+      {
+        "@value": "Pride and Prejudice"
+      }
+    ],
+    "http://bibframe.org/creator": [
+      {
+        "@id": "https://en.wikipedia.org/wiki/Jane_Austen"
+      }
+    ]
+  },
+  {
+    "@id": "https://en.wikipedia.org/wiki/Jane_Austen",
+    "@type": [
+      "https://schema.org/Person"
+    ],
+    "http://www.w3.org/2002/07/owl#sameAs": [
+      {
+        "@id": "http://viaf.org/viaf/102333412"
+      }
+    ]
+  }
+]
+    </code>
+    </pre>
+   </section>
  </div>
 </div>
