@@ -1,8 +1,21 @@
 <style>
+  .book-pitch {
+   border: 2px solid #404040;
+   background-color: #C0C0C0;
+   margin-top: 20px;
+   padding: .2em;
+  
+  }
+  
   .cpp {
-    background-color: rgb(195, 224, 178);
+    background-color: rgb(148, 200, 237);
     padding: .5em;
   }
+ .cpp a {
+    color: rgb(255,255,255);
+  }
+
+
 </style>
 <div class="cpp">
  <div class="row">
@@ -63,4 +76,32 @@
    </section>
 
  </div>
+</div>
+<div class="row">
+  <section class="eight columns">
+    <h1 style="text-align: center">Group Exercise</h1> 
+    <ol style="font-size: 1.8em">
+      <li>Please divide yourselves into groups of three, four,
+      or five people.</li>
+      <li>For each source pull; come up two or three examples of pull 
+         from your own experience.</li>
+      <li>Have own group member enter your responses by highlight and
+       annotating each pull source - people, institutions, and algorithms -
+       with <a href="https://hypothes.is/">https://hypothes.is</a>
+      </li>
+    </ol> 
+  </section>
+  <article class="four columns book-pitch">
+    <h2>Interested in Learning more?</h2>
+    <a href="http://www.becomingleanlibrary.com">
+      <img src="{{ url_for('static', filename="images/bll-cover.png") }}"
+          class="u-pull-right">
+    </a>
+    <p>Next month, my book 
+      <em><a href="http://www.becomingleanlibrary.com">Becoming a Lean Library</a></em>
+      will be published by Chandos Publishing and goes into much more detail
+      on how a Catalog Pull Platform can be used in improving Library operations and
+      services.
+    </p>
+  </article>
 </div>

@@ -39,22 +39,30 @@
       <div class="one-half column" style="margin-top: 10%">
         <h1>CALCON 2015</h1>
         <h2>Introducing BIBCAT - a BIBFRAME Catalog</h2>
-        <h4>Jeremy Nelson<br>Metadata and Systems Librarian<br>Colorado College</h4>
+        <h4>Jeremy Nelson
+        <br>Metadata and Systems Librarian
+        <br>Colorado College
+        <br><a href="mailto:jeremy.nelson@coloradocollege.edu">jeremy.nelson@coloradocollege.edu</a>
+        <br><a href="https://twitter.com/jermnelson">@jermnelson</a></h4>
         <p>Presentation's <a href="{{ url_for('abstract') }}">abstract</a>, source code 
         (including content) is licensed under the <a href="http://www.gnu.org/licenses/gpl-3.0.html">GPLv3</a>
         and is available on <a href="https://github.com/jermnelson/calcon-2015">github</a> and built 
         using <a href="http://flask.pocoo.org/">Flask</a> and  
-        <a href="http://www.getskeleton.com">Skeleton</a>.</p>
+        <a href="http://www.getskeleton.com">Skeleton</a>.
+        </p>
       </div>
       <section class="one-half column" style="margin-top: 5%">
         <img src="{{ url_for('static', filename='images/calcon_logo-01.jpg') }}"> 
+        <p>Annotate and share your thoughts on this resource by commenting 
+           using <a href="https://hypothes.is/">hypoth.is</a> service.</p>
       </section>
     </div>
     {% include 'pages/introduction.html' %}
     <br>
-    {% include 'pages/bibframe.html' %}
     <br>
     {% include 'pages/cpp.html' %}
+    <br>
+    {% include 'pages/bibframe.html' %}
     <br>
     {% include 'pages/bibcat.html' %}
     <br>
