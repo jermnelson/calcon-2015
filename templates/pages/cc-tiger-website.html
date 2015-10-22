@@ -5,12 +5,103 @@
   }
 </style>
 <div class="cc">
+ <h2>Colorado College TIGER Catalog &amp; Website</h2>
  <div class="row">
-  <section class="seven column">
-    <h2>Colorado College TIGER Catalog &amp; Website</h2>
+  <section class="seven columns">
     <p>For the past five years, Tutt Library at Colorado College has been involved
-    in experimenting with new approached to bibliographic systems based on NoSQL 
-    and linked data.</p>
+    in experimenting with new approached to bibliographic systems based on diferent NoSQL 
+    technologies and emerging linked data standards and vocabularies.</p>
   </section>
  </div>
+ <div class="row">
+   <section class="one columns">&nbsp;</section>
+   <article class="ten columns">
+     <h2><a name="aritotle"></a>Aristotle Discovery Layer<br><small>2012-2014</small></h2>
+     <img src="{{ url_for('static', filename='images/discovery-cc-edu.png') }}" 
+        class="u-pull-right">
+     <p>The first public bibliographic systems developed at Colorado College is 
+      Aristotle, a bibliographic Django project for creating discovery and 
+      <a href="http://lucene.apache.org/solr/">
+      <img src="{{ url_for('static', filename='images/solr-tn.png') }}" class="img-thumbnail pull-left">
+      </a>
+      management of born digital and physical artifacts. Aristotle uses a number 
+      of other open-source toolset including EULFedora, EULXML, Sunburnt, and PyMARC. 
+     <p>
+     <p>
+      For the Discovery interface, Aristotle uses a forked version of the Kochief Django application.
+     </p>
+   </article>
+   <section class="one columns">&nbsp;</section>
+ </div>
+ <hr>
+ <h2 style="text-align: center">Prospector Discovery App<br><small>2013</small></h2>
+ <div class="row">
+  <section class="one columns">&nbsp;</section>
+  <section class="six columns">
+   <img src="{{ url_for('static', filename='images/prospector-redis-lib-services-platform.png') }}"
+     class="u-pull-left">
+  </section>
+  <article class="five columns">
+       <p>For a 2013 Code4Lib presentation, a new Django app was created in the 
+   <a href="#ala">Aristotle Library Apps</a> that used a random selection 
+    from the member libraries of the 
+    <a href="https://www.coalliance.org/">Colorado Alliance of Research 
+    Libraries's</a> union catalog. A custom mapping between MARC to the 
+    then BIBFRAME model was developed that converted MARC21 to Redis 
+    BIBFRAME Redis data structures. 
+      </p>
+  </article>
+ </div>
+ <hr>
+ <div class="row">
+  <section class="one columns">&nbsp;</section>
+  <article class="nine columns">
+   <h2><a name="ala"></a>
+     Aristotle Library Apps<br><small>2011-2015</small></h2>
+   <p>Prior to the Aristotle Discovery Layer, initial
+   development of a web application was started in 2011 with the purpose to allow
+   Colorado College seniors to self-submit their Thesis and supporting datasets to
+   the Library's <a href="http://digitalcc.coloradocollege.edu">Digital Repository</a>.
+   <img src="{{ url_for('static', filename='images/ccetd.png') }}" 
+    class="u-pull-right">. This approach resulted in a couple of
+    other internal applications, including a Fedora Repository PID mover and
+    a metadata batch application for adding multiple Fedora Objects using a
+    template.
+   </p>
+  </article>
+</div>
+<hr>
+
+<h2 style="text-align: center">TIGER Catalog (1st &amp; 2nd iteration)<br><small>2014-</small></h2>
+<div class="row">
+  <section class="one columns">&nbsp;</section>
+  <article class="six columns">
+    <a href="http://catalog.coloradocollege.edu">
+      <img src="{{ url_for('static', filename='images/cpp-example.png') }}" class="pull-left screen-shot">
+    </a>
+  </article>
+  <article class="four columns">
+    <p>
+      The first iteration of the <a href="http://catalog.coloradocollege.edu/">TIGER Catalog</a> uses
+      Solr and MongoDB for backend storage and search, and Flask for the web-front end. <a href="https://www.mongodb.org/">
+      <img src="{{ url_for('static', filename='images/mongo-db-logo.png') }}" alt="MongoDB Logo" class="pull-right"></a>
+    This iteration uses
+      json-serialized MARC21 records that are saved into MongoDB with Solr used for searching.       
+    </p>
+    <p>
+      <img src="{{ url_for('static', filename='images/cc-tiger-logo.png') }}"
+          style="background-color: rgb(255,255,255)"
+          class="u-pull-right">
+      Extends BIBCAT by pulling directly from
+      the requirements of Colorado College's People and Institutions. 
+    </p>  
+  </article>
+</div>
+<hr>
+<h2>Tutt Library Website</h2>
+<div class="row">
+  <section class="one columns">&nbsp;</section>
+  <article class="eight columns">
+     
+  </article>
 </div>
